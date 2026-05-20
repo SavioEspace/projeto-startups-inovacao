@@ -1,57 +1,80 @@
 # 🚀 Projeto G2 — Análise de Startups e Inovação Tecnológica no Brasil
 
-Este projeto desenvolve uma aplicação analítica para investigar o ecossistema brasileiro de startups entre **2015 e 2024**, utilizando **Python, Pandas, Plotly, Streamlit e GitHub**.
+Este projeto apresenta uma análise de dados sobre o ecossistema de startups e inovação tecnológica no Brasil, utilizando uma base simulada com informações de empresas, setores, regiões, investimentos, faturamento, crescimento e tecnologias principais.
 
-A proposta é transformar uma base simulada de startups em uma análise profissional com **KPIs, filtros, visualizações interativas, interpretação textual e conclusão executiva**.
-
----
-
-## 🎯 Problema de negócio
-
-O ecossistema de startups brasileiro cresce em diferentes setores, regiões e tecnologias. Porém, esse crescimento não ocorre de forma homogênea.
-
-**Pergunta central do projeto:**
-
-> Quais setores, regiões, estados e tecnologias concentram maior força inovadora no Brasil, e como investimento, faturamento e crescimento ajudam a explicar esse ecossistema?
+O objetivo é transformar os dados em informações úteis para compreender quais setores, estados e tecnologias concentram maior potencial de inovação e crescimento.
 
 ---
 
-## 📌 Objetivos
+## 🔗 Links do Projeto
 
-- Identificar setores com maior concentração de startups;
-- Comparar regiões e estados em termos de investimento e inovação;
-- Avaliar crescimento ao longo do tempo;
-- Investigar a relação entre investimento recebido e crescimento percentual;
-- Mapear tecnologias emergentes;
-- Criar um dashboard interativo para exploração dos dados.
+- **Dashboard Streamlit:**  
+  https://projeto-startups-inovacao.streamlit.app/
+
+- **Página do Projeto — GitHub Pages:**  
+  https://savioespace.github.io/projeto-startups-inovacao/
+
+- **Repositório GitHub:**  
+  https://github.com/SavioEspace/projeto-startups-inovacao
 
 ---
 
-## 🧮 KPIs utilizados
+## 🎯 Objetivo
 
-| KPI | Finalidade |
+Analisar o ecossistema de startups no Brasil, identificando padrões de crescimento, concentração regional, setores mais relevantes, tecnologias em expansão e relação entre investimento recebido e desempenho empresarial.
+
+---
+
+## ❓ Pergunta de Análise
+
+**Quais setores, regiões, estados e tecnologias concentram maior força inovadora no Brasil, e como investimento, faturamento e crescimento ajudam a explicar esse ecossistema?**
+
+Essa pergunta é relevante porque pode apoiar decisões de investimento, políticas de incentivo à inovação, estratégias de aceleração de startups e identificação de polos tecnológicos.
+
+---
+
+## 📊 Indicadores Utilizados
+
+O projeto utiliza os seguintes KPIs principais:
+
+| Indicador | Finalidade |
 |---|---|
-| Total de startups | Medir tamanho do ecossistema |
-| Investimento total | Avaliar volume financeiro captado |
-| Faturamento total | Medir resultado econômico estimado |
-| Crescimento médio | Avaliar expansão média do setor |
-| Setor mais promissor | Identificar setor com maior investimento |
-| Estado mais inovador | Identificar polo estadual de inovação |
-| Startup com maior faturamento | Destacar maior desempenho empresarial |
+| Total de startups | Medir o tamanho do ecossistema analisado |
+| Investimento total | Avaliar o volume financeiro captado |
+| Faturamento total | Medir desempenho econômico estimado |
+| Crescimento médio | Avaliar expansão das startups |
+| Setor mais promissor | Identificar setores com maior destaque |
+| Estado mais inovador | Comparar polos estaduais de inovação |
+| Startup com maior faturamento | Destacar empresas com maior desempenho |
 
 ---
 
-## 📊 Principais resultados da base completa
+## 🧪 Análises Realizadas
 
-- Total de registros analisados: **4,440**
-- Startups únicas: **199**
-- Investimento total: **R$ 1,210,960,747.95**
-- Faturamento total: **R$ 1,149,396,361.74**
-- Crescimento médio: **80.57%**
-- Setor com mais registros: **Healthtech**
-- Estado com mais registros: **RJ**
-- Startup com maior faturamento acumulado: **Startup_025**
-- Correlação investimento x crescimento: **0.01**
+Foram desenvolvidas análises para responder às principais questões do projeto:
+
+- evolução temporal do ecossistema;
+- comparação entre regiões e estados;
+- análise dos setores com maior investimento;
+- ranking de startups por faturamento;
+- relação entre investimento recebido e crescimento percentual;
+- distribuição das tecnologias principais;
+- heatmap de inovação por setor;
+- tabela dinâmica para exploração detalhada dos dados.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python
+- Pandas
+- NumPy
+- Plotly
+- Streamlit
+- Matplotlib
+- Seaborn
+- GitHub
+- GitHub Pages
 
 ---
 
@@ -72,30 +95,18 @@ projeto-startups-inovacao/
 ```
 
 ---
-Streamlit: https://projeto-startups-inovacao.streamlit.app/
-GitHubPAGE: https://savioespace.github.io/projeto-startups-inovacao/
----
-
-## 🛠️ Tecnologias utilizadas
-
-- Python
-- Pandas
-- NumPy
-- Plotly
-- Streamlit
-- Seaborn
-- Matplotlib
-- GitHub
-- GitHub Pages
-
----
 
 ## ▶️ Como executar o dashboard localmente
 
 1. Clone o repositório:
 
 ```bash
-git clone <link-do-repositorio>
+git clone https://github.com/SavioEspace/projeto-startups-inovacao.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
 cd projeto-startups-inovacao
 ```
 
@@ -105,7 +116,7 @@ cd projeto-startups-inovacao
 pip install -r requirements.txt
 ```
 
-3. Execute o Streamlit:
+3. Execute o Dashboard Streamlit:
 
 ```bash
 streamlit run app.py
@@ -113,26 +124,25 @@ streamlit run app.py
 
 ---
 
-## 🌐 Publicação
+📌 Principais Entregas
 
-Após subir o projeto no GitHub:
-
-- **GitHub:** armazenar código-fonte;
-- **GitHub Pages:** publicar o arquivo `index.html`;
-- **Streamlit Cloud:** publicar o dashboard interativo usando o arquivo `app.py`.
+* Dashboard interativo em Streamlit;
+* página de apresentação no GitHub Pages;
+* notebook de análise em Python;
+* código-fonte do dashboard;
+* base de dados utilizada;
+* README explicativo do projeto.
 
 ---
 
-## ✅ Conclusão executiva
+## ✅ Conclusão
 
-A análise mostra que o ecossistema brasileiro de startups deve ser observado a partir de múltiplas dimensões: setor, região, tecnologia, estágio, investimento, faturamento e crescimento.
+A análise demonstra que o ecossistema de startups deve ser avaliado por múltiplas dimensões, não apenas pela quantidade de empresas ou pelo investimento recebido.
 
-O investimento é um indicador importante, mas não explica sozinho o crescimento das startups. A interpretação mais robusta surge da combinação entre **volume financeiro, maturidade do estágio, tecnologia principal e nível de inovação**.
-
-A recomendação é priorizar estratégias de inovação em setores e regiões que combinem **alto investimento, crescimento consistente e maior concentração de startups disruptivas**.
+Os resultados indicam que setores, estados e tecnologias precisam ser comparados considerando investimento, faturamento, crescimento e nível de inovação. Essa abordagem permite uma leitura mais completa do ambiente de inovação e apoia decisões mais estratégicas.
 
 ---
 
 ## 👤 Autor
 
-Projeto desenvolvido para avaliação G2 — Tema 30: **Análise de Startups e Inovação Tecnológica no Brasil**.
+Projeto desenvolvido para o G2 — Tema 30: Análise de Startups e Inovação Tecnológica no Brasil.
