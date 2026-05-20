@@ -64,10 +64,8 @@ projeto-startups-inovacao/
 ├── requirements.txt
 ├── README.md
 ├── index.html
-├── dados/
-│   └── simulacao_startups_brasil.csv
-├── notebooks/
-│   └── analise_startups.ipynb
+├── simulacao_startups_brasil.csv
+├── analise_startups.ipynb
 ├── database/
 └── imagens/
 ```
