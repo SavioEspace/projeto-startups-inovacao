@@ -73,6 +73,7 @@ projeto-startups-inovacao/
 
 ---
 Streamlit: https://projeto-startups-inovacao.streamlit.app/
+GitHubPAGE: https://savioespace.github.io/projeto-startups-inovacao/
 ---
 
 ## 🛠️ Tecnologias utilizadas
