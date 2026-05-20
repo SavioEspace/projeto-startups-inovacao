@@ -59,15 +59,16 @@ O ecossistema de startups brasileiro cresce em diferentes setores, regiões e te
 
 ```text
 projeto-startups-inovacao/
-│
 ├── app.py
 ├── requirements.txt
 ├── README.md
 ├── index.html
-├── simulacao_startups_brasil.csv
-├── analise_startups.ipynb
+├── dados/
+│   └── simulacao_startups_brasil.csv
+├── notebooks/
+│   └── analise_startups.ipynb
 ├── database/
-└── imagens/
+│   └── startups.db
 ```
 
 ---
