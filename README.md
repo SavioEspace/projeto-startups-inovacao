@@ -72,6 +72,8 @@ projeto-startups-inovacao/
 ```
 
 ---
+Streamlit: https://projeto-startups-inovacao.streamlit.app/
+---
 
 ## 🛠️ Tecnologias utilizadas
 
